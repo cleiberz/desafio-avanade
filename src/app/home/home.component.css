@@ -1,0 +1,45 @@
+.toolbar {
+  background-color: rgb(70, 70, 177);
+}
+
+.titulo-toolbar{
+  color: white;
+  padding: 10px;
+}
+body {
+  background-color: rgb(230, 228, 228);
+}
+
+.titulo {
+  margin: 25px 20%;
+  color: rgb(70, 70, 177);
+}
+
+.example-icon {
+  color: white;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+
+}
+
+.example-card {
+  margin: 0 100px 15px
+}
+
+.example-button-row {
+  margin: 15px 20%;
+}
+
+.avaliacao {
+  margin: 15px 20%
+}
+
+.titulo-avaliacao{
+  color: rgb(70, 70, 177);
+}
+.opcoes {
+  padding: 2px 7px 20px
+
+}

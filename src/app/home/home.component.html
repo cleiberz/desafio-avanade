@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <mat-toolbar class="toolbar">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span class="titulo-toolbar">CHAMADOS</span>
+      <span class="example-spacer"></span>
+
+    </mat-toolbar>
+
+    <h3 class="titulo">TELA DE ACOMPANHAMENTO INTERNO</h3>
+
+    <dsfo-cliente></dsfo-cliente>
+
+    <dsfo-atendente></dsfo-atendente>
+
+    <dsfo-gerente></dsfo-gerente>
+  </div>
+
+<div class="avaliacao">
+  <h4 class="titulo-avaliacao">Avalie esse chamado</h4>
+    <mat-radio-group aria-label="Select an option" >
+      <mat-radio-button value="1" class="opcoes">Fácil</mat-radio-button>
+      <mat-radio-button value="2" class="opcoes">Normal</mat-radio-button>
+      <mat-radio-button value="3" class="opcoes">Difícil</mat-radio-button>
+    </mat-radio-group>
+</div>
+
+  <section>
+    <div class="example-button-row">
+      <button mat-raised-button color="primary">Encerrar Chamado</button>
+    </div>
+  </section>
+</body>
+</html>
