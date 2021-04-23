@@ -1,5 +1,5 @@
+import { Component, OnInit } from '@angular/core';
 import { Pessoas } from './../model/pessoas';
-import { Component, Input, OnInit, Output } from '@angular/core';
 
 
 
